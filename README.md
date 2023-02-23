@@ -2,7 +2,7 @@
 
 ## Estrutura básica
 
-<p align= "justify"> Projeto de uma landing page utilizando HTML, CSS e uma Hero Image com Glassmorfismo   </p>
+<p align= "justify"> Projeto de uma landing page utilizando HTML, CSS e uma Hero Image com Glassmorfismo.   </p>
 
 <br>
 
