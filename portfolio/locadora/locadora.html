@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locadora 3000</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+  rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+  crossorigin="anonymous"> 
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" 
+  integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" 
+  crossorigin="anonymous"></script> 
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" 
+  integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" 
+  crossorigin="anonymous"></script> 
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <img style="width: 3%;" src="/img/rolo-de-filme.png">
+        <a class="navbar-brand" href="#topo">Locadora 3000</a>
+      <div class="collapse navbar-collapse" id="navbarSupContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#tabFilmes">Filmes Disponíveis</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " id="dropGeneros" data-bs-toggle="dropdown" role="button" href="#drop">Filmes por Categoria</a>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item" href="#gAcao">Ação</a></li>
+              <li> <a class="dropdown-item" href="#gAnimacao">Animação</a></li>
+              <li> <a class="dropdown-item" href="#gRomance">Romance</a></li>
+              <li> <a class="dropdown-item" href="#gSuspense">Suspense</a></li>
+              <li> <a class="dropdown-item" href="#gDrama">Drama</a></li>
+              <li> <a class="dropdown-item" href="#gComedia">Comédia</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="nav-link" href="#cadFilmes">Cadastrar Filme</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <h1 class="display-1 text-center mb-5">Locadora 3000</h1>
+  
+  <div class="container">
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col"> Código </th>
+          <th scope="col"> Título </th>
+          <th scope="col"> Diretor </th>
+          <th scope="col"> Lançamento </th>
+          <th scope="col"> Gênero </th>
+          <th scope="col"> Ator/Atriz Principal</th>
+          <th scope="col"> Nota IMDb </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="text-center table-primery table-success" colspan="7" id="#gAcao">Ação</th>
+        </tr>
+        <tr>
+          <th scope="row">1</th>
+          <td>O Senhor dos Anéis: A Sociedade do Anel</td>
+          <td>Peter Jackson</td>
+          <td>10 de dezembro de 2001</td>
+          <td>Ação</td>
+          <td>Elijah Wood</td>
+          <td>8,8</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Os Aventureiros do Bairro Proibido</td>
+          <td>John Carpenter</td>
+          <td>1 de julho de 1986</td>
+          <td>Ação</td>
+          <td>Kurt Russell</td>
+          <td>7,2</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Batman: O Cavaleiro das Trevas</td>
+          <td>Christopher Nolan</td>
+          <td>18 de julho de 2008</td>
+          <td>Ação</td>
+          <td>Christian Bale</td>
+          <td>9,0</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Mad Max: Estrada da Fúria</td>
+          <td>George Miller</td>
+          <td>14 de maio de 2015</td>
+          <td>Ação</td>
+          <td>Tom Hardy</td>
+          <td>8,1</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Kill Bill: Volume 1</td>
+          <td>Quentin Tarantino</td>
+          <td>23 de abril de 2004</td>
+          <td>Ação</td>
+          <td>Uma Thurman</td>
+          <td>8,2</td>
+        </tr>
+        <tr>
+          <th class="text-center table-primery table-success" colspan="7" id="#gAnimacao">Animação</th>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Shrek</td>
+          <td>Andrew Adamson</td>
+          <td>22 de junho de 2001</td>
+          <td>Animação</td>
+          <td>Mike Myers (voz)</td>
+          <td>7,9</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Aladdin</td>
+          <td>Ron Clements</td>
+          <td>25 de novembro de 1992</td>
+          <td>Animação</td>
+          <td>Scott Weinger (voz)</td>
+          <td>8,0</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Akira</td>
+          <td>Katsuhiro Ôtomo</td>
+          <td>9 de agosto de 1991</td>
+          <td>Animação</td>
+          <td>Mitsuo Iwata (voz)</td>
+          <td>8,0</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Vida de Inseto</td>
+          <td>John Lasseter</td>
+          <td>18 de dezembro de 1998</td>
+          <td>Animação</td>
+          <td>Kevin Spacey (voz)</td>
+          <td>7,2</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Tarzan</td>
+          <td>Chris Buck</td>
+          <td>2 de julho de 1999</td>
+          <td>Animação</td>
+          <td>Tony Goldwyn (voz)</td>
+          <td>7,3</td>
+        </tr>
+        <tr>
+          <th class="text-center table-primery table-success" colspan="7" id="#gRomance">Romance</th>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td>Dirty Dancing: ritmo quente</td>
+          <td>Emile Ardolino</td>
+          <td>25 de setembro de 1987</td>
+          <td>Romance</td>
+          <td>Jennifer Grey, Patrick Swayze</td>
+          <td>7,0</td>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <td>Ghost: do outro lado da vida</td>
+          <td>Rob Minkoff, Roger Allers</td>
+          <td>8 de julho de 1994</td>
+          <td>Romance</td>
+          <td>Demi Moore, Patrick Swayze</td>
+          <td>7,1</td>
+        </tr>
+        <tr>
+          <th scope="row">13</th>
+          <td>Amor à segunda vista</td>
+          <td>Marc Lawrence</td>
+          <td>12 de dezembro de 2002</td>
+          <td>Romance</td>
+          <td>Sandra Bullock</td>
+          <td>6,1</td>
+        </tr>
+        <tr>
+          <th scope="row">14</th>
+          <td>Forrest Gump: O Contador de Histórias</td>
+          <td>Robert Zemeckis</td>
+          <td>7 de dezembro de 1994</td>
+          <td>Romance</td>
+          <td>Tom Hanks</td>
+          <td>8,8</td>
+        </tr>
+        <tr>
+          <th scope="row">15</th>
+          <td>A Vida é Bela</td>
+          <td>Roberto Benigni</td>
+          <td>5 de fevereiro de 1999</td>
+          <td>Romance</td>
+          <td>Roberto Benigni</td>
+          <td>8,6</td>
+        </tr>
+        <tr>
+          <th class="text-center table-primery table-success" colspan="7" id="#gSuspense">Suspense</th>
+        </tr>
+        <tr>
+          <th scope="row">16</th>
+          <td>Corra!</td>
+          <td>Jordan Peele</td>
+          <td>18 de maio de 2017</td>
+          <td>Suspense</td>
+          <td>Daniel Kaluuya</td>
+          <td>8,6</td>
+        </tr>
+        <tr>
+          <th scope="row">17</th>
+          <td>O Sexto Sentido</td>
+          <td>M. Night Shyamalan</td>
+          <td>22 de outubro de 1999</td>
+          <td>Suspense</td>
+          <td>Bruce Willis</td>
+          <td>8,2</td>
+        </tr>
+        <tr>
+          <th scope="row">18</th>
+          <td>Entre Facas e Segredos</td>
+          <td>Rian Johnson</td>
+          <td>5 de dezembro de 2019</td>
+          <td>Suspense</td>
+          <td>Daniel Craig</td>
+          <td>7,9</td>
+        </tr>
+        <tr>
+          <th scope="row">19</th>
+          <td>Sinais</td>
+          <td>M. Night Shyamalan</td>
+          <td>20 de setembro de 2002</td>
+          <td>Suspense</td>
+          <td>Bruce Willis</td>
+          <td>6,8</td>
+        </tr>
+        <tr>
+          <th scope="row">20</th>
+          <td>Cloverfield: Monstro</td>
+          <td>Matt Reeves</td>
+          <td>28 de fevereiro de 2008</td>
+          <td>Suspense</td>
+          <td>Mike Vogel</td>
+          <td>7,0</td>
+        </tr>
+        <tr>
+          <th class="text-center table-primery table-success" colspan="7" id="#gDrama">Drama</th>
+        </tr>
+        <tr>
+          <th scope="row">21</th>
+          <td>Clube da Luta</td>
+          <td>David Fincher</td>
+          <td>29 de outubro de 1999</td>
+          <td>Drama</td>
+          <td>Brad Pitt</td>
+          <td>8,8</td>
+        </tr>
+        <tr>
+          <th scope="row">22</th>
+          <td>Pulp Fiction: Tempo de Violência</td>
+          <td>Quentin Tarantino</td>
+          <td>3 de março de 1995</td>
+          <td>Drama</td>
+          <td>John Travolta</td>
+          <td>8,9</td>
+        </tr>
+        <tr>
+          <th scope="row">23</th>
+          <td>Interestelar</td>
+          <td>Christopher Nolan</td>
+          <td>6 de novembro de 2014</td>
+          <td>Drama</td>
+          <td>Matthew McConaughey</td>
+          <td>8,6</td>
+        </tr>
+        <tr>
+          <th scope="row">24</th>
+          <td>Bastardos Inglórios</td>
+          <td>Quentin Tarantino</td>
+          <td>9 de outubro de 2009</td>
+          <td>Drama</td>
+          <td>Brad Pitt</td>
+          <td>8,3</td>
+        </tr>
+        <tr>
+          <th scope="row">25</th>
+          <td>O Silêncio dos Inocentes</td>
+          <td>Jonathan Demme</td>
+          <td>17 de maio de 1991</td>
+          <td>Drama</td>
+          <td>Jodie Foster</td>
+          <td>8,6</td>
+        </tr>
+        <tr>
+          <th class="text-center table-primery table-success" colspan="7" id="#gComedia">Comédia</th>
+        </tr>
+        <tr>
+          <th scope="row">26</th>
+          <td>Space Jam: O Jogo do Século</td>
+          <td>Joe Pytka</td>
+          <td>25 de dezembro de 1996</td>
+          <td>Comédia</td>
+          <td>Michael Jordan</td>
+          <td>6,5</td>
+        </tr>
+        <tr>
+          <th scope="row">27</th>
+          <td>De Volta para o Futuro</td>
+          <td>Robert Zemeckis</td>
+          <td>25 de dezembro de 1985</td>
+          <td>Comédia</td>
+          <td>Michael J. Fox</td>
+          <td>8,5</td>
+        </tr>
+        <tr>
+          <th scope="row">28</th>
+          <td>Todo Mundo em Pânico</td>
+          <td>Keenen Ivory Wayans</td>
+          <td>22 de setembro de 2000</td>
+          <td>Comédia</td>
+          <td>Anna Faris</td>
+          <td>6,2</td>
+        </tr>
+        <tr>
+          <th scope="row">29</th>
+          <td>O Grande Hotel Budapeste</td>
+          <td>Wes Anderson</td>
+          <td>3 de julho de 2014</td>
+          <td>Comédia</td>
+          <td>Ralph Fiennes</td>
+          <td>8,1</td>
+        </tr>
+        <tr>
+          <th scope="row">30</th>
+          <td>Scott Pilgrim Contra o Mundo</td>
+          <td>Edgar Wright</td>
+          <td>5 de novembro de 2010</td>
+          <td>Comédia</td>
+          <td>Michael Cera</td>
+          <td>7,5</td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      <hr class="border-primary border-3 opacity-75">
+    </div>
+  </div>
+
+  <h2 class="text-center mb-5">Cadastro de Filmes</h2>
+
+<div class="container mb-5">
+ <form>
+
+  <div class="row">
+    <div class="mb-3 col">
+      <label for="codFilme" class="form-label">Código: </label>
+      <input type="text" id="codFilme" class="form-control">
+    </div>
+    <div class="mb-3 col">
+      <label for="anoFilme" class="form-label">Ano: </label>
+      <input type="date" id="anoFilme" class="form-control">
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="mb-3 col">
+      <label for="tituloFilme" class="form-label">Título: </label>
+      <input type="text" id="tituloFilme" class="form-control">
+    </div>
+    <div class="mb-3 col">
+      <label for="diretorFilme" class="form-label">Diretor: </label>
+      <input type="text" id="diretorFilme" class="form-control">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="mb-3 col">
+      <label for="atorFilme" class="form-label">Ator/Atriz Principal: </label>
+      <input type="text" id="atorFilme" class="form-control">
+    </div>
+    <div class="mb-3 col">
+      <label for="notaFilme" class="form-label">Nota IMDb: </label>
+      <input type="text" id="notaFilme" class="form-control">
+    </div>
+    
+  </div>
+
+  <div class="row">
+    
+      <div class="mb-3 col form-check">    
+        <input type="radio" name="radio" id="radGenAcao" class="form-check-input" value="acao">
+        <label for="redGenAcao" class="form-label">Ação</label><br>
+      </div>
+      <div class="mb-3 col form-check">
+        <input type="radio" name="radio" id="radGenAnima" class="form-check-input" value="animacao">
+        <label for="redGenAnima" class="form-label">Animação</label><br>
+      </div>
+      <div class="mb-3 col form-check">
+        <input type="radio" name="radio" id="radGenRoma" class="form-check-input" value="romance">
+        <label for="redGenRoma" class="form-label">Romance</label><br>
+      </div>
+      <div class="mb-3 col form-check">
+        <input type="radio" name="radio" id="radGenSus" class="form-check-input" value="suspense">
+        <label for="redGenSus" class="form-label">Suspense</label><br>
+      </div>
+      <div class="mb-3 col form-check">
+        <input type="radio" name="radio" id="radGenDra" class="form-check-input" value="drama">
+        <label for="redGenDra" class="form-label">Drama</label><br>
+      </div>
+      <div class="mb-3 col form-check">
+        <input type="radio" name="radio" id="radGenCom" class="form-check-input" value="comedia">
+        <label for="redGenCom" class="form-label">Comédia</label>
+      </div>
+
+  </div>
+
+  <div class="col-auto">
+
+    <button type="submit" class="btn btn-primary mb-3">Cadastrar</button>
+
+  </div>
+
+ </form>
+</div>
+
+</body>
+</html>

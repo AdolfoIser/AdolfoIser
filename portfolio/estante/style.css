@@ -1,0 +1,51 @@
+body {
+  background-color: blue; 
+  color: white; 
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+ }
+ .tituloUm {
+  color: white; 
+  background-color: black;
+ }
+ .sub {
+  color: white; 
+  background-color: black;
+ }
+ .sumario {
+  color: white; 
+  background-color: black;
+  text-align: left;
+ }
+
+ .tituloLivro {
+  color: white; 
+  background-color: black;
+ }
+
+ img {
+  width: 20%;
+  height: 20%;
+ }
+ .sinop {
+  color: white; 
+  background-color: black;
+ }
+
+ p {
+  text-align: justify;
+  text-indent: 35px; 
+ }
+ span {
+    color: black; 
+  }
+  table 
+  {
+    width: 100% 
+  }
+  th { 
+    background-color: black;
+  }
+  td { 
+    background-color: black;
+  }
